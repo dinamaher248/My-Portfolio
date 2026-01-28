@@ -306,7 +306,7 @@ Modify CSS variables in `style.css`:
 ## 📞 **Contact & Support**
 
 For questions, suggestions, or collaboration opportunities:
-- **Email**: mohamedrashadhyg@gmail.com
+- **Email**: dinamaher292@gmail.com
 - **WhatsApp**: Available via portfolio contact section
 - **LinkedIn**: [DinaMaher](https://www.linkedin.com/in/dinamaher292)
 
@@ -326,5 +326,6 @@ The result is a professional, engaging, and technically impressive portfolio tha
 ---
 
 *Built with ❤️ and modern web technologies*
-#   M y - P o r t f o l i o  
+#   M y - P o r t f o l i o 
+ 
  
