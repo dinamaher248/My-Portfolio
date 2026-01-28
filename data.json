@@ -1,0 +1,238 @@
+{
+  "personal_info": {
+    "name": "Dina Maher",
+    "title": "Flutter Developer | Cross-Platform Mobile Applications",
+    "profile_image": "assets/profile/profile.png",
+    "location": "Zagazig, Al Sharqia, Egypt",
+    "contact": {
+      "phone": "+20 1205748793",
+      "email": "dinamaher292@gmail.com"
+    },
+    "social_links": [
+      {
+        "platform": "GitHub",
+        "url": "https://github.com/dinamaher248"
+      },
+      {
+        "platform": "LinkedIn",
+        "url": "https://www.linkedin.com/in/dinamaher292"
+      }
+    ],
+    "cv_download": "assets/downloads/Dina_Maher_Resume.pdf",
+    "about_me": "A Flutter Developer with +1 years of experience building high-performance cross-platform mobile applications. Proficient in state management, Firebase integration, and applying clean architecture principles. Committed to delivering intuitive user experiences and collaborating effectively to achieve project goals."
+  },
+  "projects_num": "6",
+  "experience_num": "1",
+  "customers_num": "1",
+  "skills": {
+    "soft_skills": [
+      "Collaborative",
+      "Strong Communicator",
+      "Efficient Time-Manager",
+      "Analytical",
+      "Adaptable",
+      "Proactive",
+      "Detail-Oriented",
+      "Goal-Oriented",
+      "Self-Learner",
+      "Critical Thinker"
+    ],
+    "technical_skills": [
+      "Flutter and Dart",
+      "Bloc, Provider and Riverpod",
+      "RESTful APIs, Firebase, Supabase, Hive and SQLite",
+      "Responsive UI and Custom Widgets",
+      "MVVM, and Clean Architecture",
+      "OOP, SOLID Principles and Design Patterns",
+      "Git and Version Control",
+      "Problem Solving",
+      "Testing and Debugging"
+    ]
+  },
+  "education": [
+    {
+      "degree": "Faculty of Computer Science",
+      "institution": "Zagazig University",
+      "date_range": "2021 - 2025"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Freelance Flutter Developer",
+      "company": "Zain Car Company",
+      "location": "Remote",
+      "date_range": "Aug 2024 – Jul 2025",
+      "description_points": [
+        "Worked as a freelance Flutter developer on a ride-hailing mobile application similar to inDriver.",
+        "Contributed to core features including Google Maps integration, dynamic pricing logic, and payment workflows.",
+        "Collaborated remotely with the team to develop and maintain both passenger and driver applications.",
+        "Built scalable and reusable UI components following clean architecture principles.",
+        "Improved app performance and user experience through bug fixing and optimization."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "InDriver",
+      "cover_image": "assets/covers/IndriveApp.png",
+      "short_description": "Driver-side mobile application for accepting and managing freelance delivery tasks.",
+      "description": "A Flutter-based driver application designed for freelancers to receive, accept, and manage delivery or service requests in real time. The app includes live order tracking, earnings overview, and status management with a clean and responsive UI.",
+      "features": [
+        "Driver authentication",
+        "Real-time job requests",
+        "Accept / reject orders",
+        "Live order status tracking",
+        "Earnings dashboard",
+        "Availability & online status"
+      ],
+      "technologies_used": [
+        "Flutter",
+        "Dart",
+        "REST APIs",
+        "Google Maps"
+      ],
+      "links": [
+        {
+          "type": "Passenger App APK",
+          "url": "https://drive.google.com/file/d/1lNwVD4dY8tJS61Apt4Kne5rzQOGtd-YY/view"
+        },
+        {
+          "type": "Driver App APK",
+          "url": "https://drive.google.com/file/d/1ov94m23garT8I5p7UfD9t6D4ARfDTLud/view"
+        }
+      ],
+      "media": []
+    },
+    {
+      "name": "Skin Scan",
+      "cover_image": "assets/covers/SkinScan.png",
+      "short_description": "AI-powered wound and skin disease detection app.",
+      "description": "An AI-powered Flutter application for wound and skin disease detection using camera input and external AI models. The app provides instant diagnosis and guidance through REST API integration.",
+      "features": [
+        "Camera integration",
+        "AI image analysis",
+        "Instant diagnosis",
+        "REST API integration",
+        "Clean and intuitive UI"
+      ],
+      "technologies_used": [
+        "Flutter",
+        "Dart",
+        "REST APIs",
+        "Camera",
+        "AI Models"
+      ],
+      "links": [
+        {
+          "type": "GitHub",
+          "url": "PUT_GITHUB_LINK_HERE"
+        }
+      ],
+      "media": []
+    },
+    {
+      "name": "Market E-commerce",
+      "cover_image": "assets/covers/MarketApp.png",
+      "short_description": "Flutter e-commerce app with authentication, cart, and REST APIs.",
+      "description": "A Flutter-based e-commerce application featuring authentication, product listing, cart management, and real-time REST API integration following clean architecture principles.",
+      "features": [
+        "Authentication",
+        "Product listing",
+        "Cart management",
+        "REST API integration",
+        "Device Preview",
+        "Real-time updates"
+      ],
+      "technologies_used": [
+        "Flutter",
+        "Dart",
+        "REST APIs",
+        "Clean Architecture"
+      ],
+      "links": [
+        {
+          "type": "GitHub",
+          "url": "https://github.com/dinamaher248/Market-E-commerce"
+        }
+      ],
+      "media": []
+    },
+    {
+      "name": "Bookly",
+      "cover_image": "assets/covers/BooklyApp.png",
+      "short_description": "Book browsing app using Google Books API.",
+      "description": "A Flutter book browsing application built with MVVM architecture and Cubit state management. Integrated Google Books API using Dio with robust error handling.",
+      "features": [
+        "Book browsing",
+        "Search functionality",
+        "API integration",
+        "Clean MVVM architecture"
+      ],
+      "technologies_used": [
+        "Flutter",
+        "Cubit",
+        "MVVM",
+        "Dio",
+        "Google Books API"
+      ],
+      "links": [
+        {
+          "type": "GitHub",
+          "url": "https://github.com/dinamaher248/bookly_app"
+        }
+      ],
+      "media": []
+    },
+    {
+      "name": "Upper-UI",
+      "cover_image": "assets/covers/Upper.png",
+      "short_description": "Modern financial dashboard UI built with Flutter.",
+      "description": "A modern Flutter UI project for financial market tracking, featuring dashboards, charts, watchlists, authentication screens, and Light/Dark mode support.",
+      "features": [
+        "Modern UI dashboards",
+        "Charts & analytics",
+        "Authentication screens",
+        "Light & Dark mode",
+        "Responsive layouts"
+      ],
+      "technologies_used": [
+        "Flutter",
+        "Dart",
+        "UI/UX",
+        "Charts"
+      ],
+      "links": [
+        {
+          "type": "GitHub",
+          "url": "https://github.com/byteVortex0/Upper-UI"
+        }
+      ],
+      "media": []
+    },
+    {
+      "name": "Delivery App",
+      "cover_image": "assets/covers/deliveryApp.png",
+      "short_description": "Delivery app with real-time tracking and online payments.",
+      "description": "A Flutter delivery application with real-time location tracking, distance-based pricing, and Stripe/PayPal payment integration.",
+      "features": [
+        "Real-time location tracking",
+        "Distance-based pricing",
+        "Online payments",
+        "Order management"
+      ],
+      "technologies_used": [
+        "Flutter",
+        "Cubit",
+        "Google Maps",
+        "Stripe"
+      ],
+      "links": [
+        {
+          "type": "GitHub",
+          "url": "https://github.com/dinamaher248/delivery_app"
+        }
+      ],
+      "media": []
+    }
+  ]
+}
