@@ -111,6 +111,7 @@
     },
     {
       "title": "Freelance Flutter Developer",
+      "hidden": true,
       "company": "Zain Car Company",
       "location": "Remote",
       "date_range": "Aug 2024 – Jul 2025",
@@ -125,6 +126,7 @@
   "projects": [
     {
       "name": "InDriver",
+      "hidden": true,
       "cover_image": "assets/covers/IndriveApp.png",
       "short_description": "Driver-side mobile application for accepting and managing freelance delivery tasks.",
       "description": "A Flutter-based driver application designed for freelancers to receive, accept, and manage delivery or service requests in real time. The app includes live order tracking, earnings overview, and status management with a clean and responsive UI.",
