@@ -439,10 +439,10 @@ async function loadDataWithData(data) {
 
   // Experience timeline
   const timeline = document.getElementById('experienceTimeline');
-  (data.experience || [])
-    .filter(exp => !exp.hidden)
-    .forEach(exp => {
-      // (data.experience || []).forEach(exp => {
+  // (data.experience || [])
+  //   .filter(exp => !exp.hidden)
+  //   .forEach(exp => {
+      (data.experience || []).forEach(exp => {
       const item = el(`
       <div class="timeline-item" data-aos="fade-up" data-aos-delay="50">
         <span class="timeline-dot"></span>
@@ -469,12 +469,12 @@ async function loadDataWithData(data) {
   // Projects (without tech badges, with modal functionality)
   const grid = document.getElementById('projectsGrid');
 
-  const visibleProjects = (data.projects || []).filter(
-    p => !p.hidden
-  );
+  // const visibleProjects = (data.projects || []).filter(
+  //   p => !p.hidden
+  // );
 
-  visibleProjects.forEach((p, idx) => {
-    // (data.projects || []).forEach((p, idx) => {
+  // visibleProjects.forEach((p, idx) => {
+    (data.projects || []).forEach((p, idx) => {
     const card = el(`
       <article class="project" data-aos="fade-up" data-aos-delay="${(idx % 3) * 100}" style="cursor: pointer;">
         <div class="project__cover">
