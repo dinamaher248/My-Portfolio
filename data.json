@@ -21,9 +21,9 @@
     "cv_download": "assets/downloads/Dina_Maher_Resume.pdf",
     "about_me": "A Flutter Developer with +1 years of experience building high-performance cross-platform mobile applications. Proficient in state management, Firebase integration, and applying clean architecture principles. Committed to delivering intuitive user experiences and collaborating effectively to achieve project goals."
   },
-  "projects_num": "6",
-  "experience_num": "1",
-  "customers_num": "1",
+  "projects_num": "7",
+  "experience_num": "2",
+  "customers_num": "4",
   "skills": {
     "soft_skills": [
       "Collaborative",
@@ -40,8 +40,12 @@
     "technical_skills": [
       "Flutter and Dart",
       "Bloc, Provider and Riverpod",
-      "RESTful APIs, Firebase, Supabase, Hive and SQLite",
+      "RESTful APIs, Firebase, Supabase, Hive, SQLite and Local Storage",
       "Responsive UI and Custom Widgets",
+      "Desktop Applications",
+      "PDF Generation & Reporting",
+      "Dependency Injection (GetIt)",
+      "Localization (Arabic & English)",
       "MVVM, and Clean Architecture",
       "OOP, SOLID Principles and Design Patterns",
       "Git and Version Control",
@@ -58,22 +62,72 @@
   ],
   "experience": [
     {
+      "title": "Flutter Developer",
+      "company": "OnClick Company",
+      "location": "Zagazig, Al Sharqia, Egypt",
+      "date_range": "May 2026 - Present",
+      "description_points": [
+        "Developed and maintained Flutter mobile applications for client projects.",
+        "Implemented REST API integration, state management, and responsive UI designs.",
+        "Collaborated with backend developers and designers to deliver scalable solutions.",
+        "Worked on the Tayser mobile application and contributed to feature development and maintenance."
+      ]
+    },
+    {
+      "title": "Flutter Developer",
+      "company": "Learnify University",
+      "location": "Remote",
+      "date_range": "March 2026 - Present",
+      "description_points": [
+        "Developed student and parent mobile applications for a university management platform.",
+        "Implemented authentication, attendance tracking, course management, quizzes, grades, and notifications.",
+        "Integrated REST APIs using Dio and secure JWT authentication.",
+        "Built reusable components following Clean Architecture and feature-based project structure."
+      ]
+    },
+    {
       "title": "Freelance Flutter Developer",
+      "company": "Crates Management System",
+      "location": "Remote",
+      "date_range": "May 2026 - August 2026",
+      "description_points": [
+        "Designed and developed a business management system for inventory, customers, expenses, and reporting.",
+        "Implemented analytics dashboards, PDF reporting, backup & restore, and multilingual support.",
+        "Built desktop and mobile versions using Flutter and Clean Architecture.",
+        "Integrated local databases and state management solutions for scalable performance."
+      ]
+    },
+    {
+      "title": "Freelance Flutter Developer",
+      "company": "Nafezly",
+      "location": "Remote",
+      "date_range": "June 2026 ",
+      "description_points": [
+        "Delivered Flutter applications for freelance clients through the Nafezly platform.",
+        "Developed a Restaurant App with menu browsing and responsive user interfaces.",
+        "Built a Weather App integrating external APIs for real-time weather data.",
+        "Maintained clean, reusable code and ensured smooth user experience across devices."
+      ]
+    },
+    {
+      "title": "Freelance Flutter Developer",
+             "hidden": true,
+
       "company": "Zain Car Company",
       "location": "Remote",
       "date_range": "Aug 2024 – Jul 2025",
       "description_points": [
-        "Worked as a freelance Flutter developer on a ride-hailing mobile application similar to inDriver.",
-        "Contributed to core features including Google Maps integration, dynamic pricing logic, and payment workflows.",
-        "Collaborated remotely with the team to develop and maintain both passenger and driver applications.",
-        "Built scalable and reusable UI components following clean architecture principles.",
-        "Improved app performance and user experience through bug fixing and optimization."
+        "Worked on a ride-hailing application similar to inDriver.",
+        "Implemented Google Maps integration, real-time location tracking, and payment workflows.",
+        "Developed scalable UI components following Clean Architecture principles.",
+        "Collaborated remotely with the development team to improve app performance and user experience."
       ]
     }
   ],
   "projects": [
     {
       "name": "InDriver",
+       "hidden": true,
       "cover_image": "assets/covers/IndriveApp.png",
       "short_description": "Driver-side mobile application for accepting and managing freelance delivery tasks.",
       "description": "A Flutter-based driver application designed for freelancers to receive, accept, and manage delivery or service requests in real time. The app includes live order tracking, earnings overview, and status management with a clean and responsive UI.",
@@ -104,6 +158,69 @@
       "media": []
     },
     {
+      "name": "Learnify University",
+      "cover_image": "assets/covers/learnifyApp.png",
+      "short_description": "University management system for students and parents.",
+      "description": "A comprehensive Flutter mobile application developed for a university management platform. The system enables students and parents to access courses, lectures, attendance, grades, assignments, notifications, messaging, and AI-powered educational assistance through a secure and scalable architecture.",
+      "features": [
+        "Student & Parent portals",
+        "JWT Authentication",
+        "Course management",
+        "Attendance tracking with QR Scanner",
+        "Lecture videos & PDF viewer",
+        "Assignment submission",
+        "Quiz & Exam system",
+        "Grades & Progress tracking",
+        "Push notifications",
+        "AI Chatbot integration",
+        "Real-time messaging"
+      ],
+      "technologies_used": [
+        "Flutter",
+        "Dart",
+        "Dio",
+        "Cubit",
+        "REST APIs",
+        "JWT Authentication",
+        "Go Router",
+        "MVVM Architecture",
+        "REST APIs"
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "name": "Tayser App",
+      "cover_image": "assets/covers/tayser_app_customer.png",
+      "short_description": "Service management mobile application.",
+      "description": "A Flutter mobile application developed as part of OnClick Company projects. Contributed to feature implementation, API integration, state management, and responsive user interface development.",
+      "features": [
+        "User authentication",
+        "Responsive UI",
+        "REST API integration",
+        "Profile management",
+        "State management",
+        "Real-time data handling"
+      ],
+      "technologies_used": [
+        "Flutter",
+        "Dart",
+        "Bloc",
+        "REST APIs"
+      ],
+      "links": [],
+      "media": [
+        {
+          "type": "screenshot",
+          "url": "assets/covers/tayser_app_customer.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/covers/tayser_app_company.png"
+        }
+      ]
+    },
+    {
       "name": "Skin Scan",
       "cover_image": "assets/covers/SkinScan.png",
       "short_description": "AI-powered wound and skin disease detection app.",
@@ -122,12 +239,7 @@
         "Camera",
         "AI Models"
       ],
-      "links": [
-        {
-          "type": "GitHub",
-          "url": "PUT_GITHUB_LINK_HERE"
-        }
-      ],
+      "links": [],
       "media": []
     },
     {
@@ -156,6 +268,160 @@
         }
       ],
       "media": []
+    },
+    {
+      "name": "Crates Management System",
+      "cover_image": "assets/covers/DesktopApp.png",
+      "short_description": "Business management system for inventory, customers, expenses, reports, and analytics.",
+      "description": "A comprehensive Flutter desktop and mobile application designed to manage crate inventory, customer operations, expenses, reporting, and business analytics. The system provides real-time inventory tracking, PDF reporting, audit logging, backup & restore functionality, and multilingual support using a scalable feature-based clean architecture.",
+      "features": [
+        "Inventory management",
+        "Customer management",
+        "Expense tracking",
+        "Analytics dashboard",
+        "PDF report generation",
+        "Backup & restore",
+        "Audit logging",
+        "Multi-language support (Arabic & English)"
+      ],
+      "technologies_used": [
+        "Flutter",
+        "Dart",
+        "Bloc",
+        "SQLite",
+        "GetIt",
+        "PDF & Printing",
+        "Localization",
+        "Clean Architecture"
+      ],
+      "links": [
+        {
+          "type": "Demo",
+          "url": "https://drive.google.com/file/d/1jLOglHXoqvYM952kK_RAGhA27p29SKbT/view?usp=sharing"
+        },
+        {
+          "type": "GitHub",
+          "url": "https://github.com/dinamaher248/Tomatoes-Crates-Management-System"
+        }
+      ],
+      "media": [
+        {
+          "type": "screenshot",
+          "url": "assets/covers/DesktopApp.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/desktop_app/login.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/desktop_app/dashboard1.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/desktop_app/dashboard2.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/desktop_app/dashboard3.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/desktop_app/dashboard4.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/desktop_app/customer_details1.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/desktop_app/customer_details2.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/desktop_app/customer_details3.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/desktop_app/customer_details4.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/desktop_app/customer_details5.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/desktop_app/customer_details6.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/desktop_app/customer_details7.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/desktop_app/expenses1.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/desktop_app/expenses2.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/desktop_app/expenses3.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/desktop_app/inventory.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/desktop_app/invoices.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/desktop_app/payment1.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/desktop_app/payment2.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/desktop_app/payment3.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/desktop_app/payment4.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/desktop_app/payment5.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/desktop_app/payment6.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/desktop_app/payment7.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/desktop_app/settings1.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/desktop_app/settings2.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/desktop_app/settings3.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/desktop_app/settings4.png"
+        }
+      ]
     },
     {
       "name": "Bookly",
@@ -233,6 +499,66 @@
         }
       ],
       "media": []
+    },
+    {
+      "name": "Weather App",
+      "cover_image": "assets/covers/weatherapp.png",
+      "short_description": "Flutter weather forecasting application with dynamic UI and air quality monitoring.",
+      "description": "A modern Flutter weather application that allows users to search for any city and view detailed weather forecasts. The app provides a 14-day forecast, air quality information, dynamic weather-based themes, and responsive UI with smooth animations.",
+      "features": [
+        "Search weather by city",
+        "14-day weather forecast",
+        "Default cities weather updates",
+        "Air quality monitoring",
+        "Dynamic weather icons",
+        "Dynamic backgrounds",
+        "Responsive UI",
+        "Loading animations",
+        "Error handling",
+        "Local data caching"
+      ],
+      "technologies_used": [
+        "Flutter",
+        "Dart",
+        "Cubit",
+        "Bloc",
+        "REST API",
+        "Shared Preferences",
+        "Sizer",
+        "Flutter Spinkit"
+      ],
+      "links": [
+        {
+          "type": "GitHub",
+          "url": "https://github.com/dinamaher248/Weather-App"
+        }
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "assets/videos/weatherapp.mp4"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/weather_app/home.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/weather_app/searching1.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/weather_app/searching2.png"
+        },
+         {
+          "type": "screenshot",
+          "url": "assets/screenshots/weather_app/details1.png"
+        },
+         {
+          "type": "screenshot",
+          "url": "assets/screenshots/weather_app/details2.png"
+        }
+      ]
     }
   ]
 }
