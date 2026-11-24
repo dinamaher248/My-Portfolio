@@ -19,10 +19,10 @@
       }
     ],
     "cv_download": "assets/downloads/Dina_Maher_Resume.pdf",
-    "about_me": "A Flutter Developer with +2 years of experience building high-performance cross-platform mobile applications. Proficient in state management, Firebase integration, and applying clean architecture principles. Committed to delivering intuitive user experiences and collaborating effectively to achieve project goals."
+    "about_me": "A Flutter Developer with +3 years of experience building high-performance cross-platform mobile applications. Proficient in state management, Firebase integration, and applying clean architecture principles. Committed to delivering intuitive user experiences and collaborating effectively to achieve project goals."
   },
-  "projects_num": "7",
-  "experience_num": "2",
+  "projects_num": "14",
+  "experience_num": "3+",
   "customers_num": "4",
   "skills": {
     "soft_skills": [
@@ -123,6 +123,90 @@
     }
   ],
   "projects": [
+    {
+      "name": "RideWise",
+      "cover_image": "assets/covers/ridewise.png",
+      "short_description": "Driver app that monitors available trips and flags the ones matching the driver's own criteria.",
+      "description": "A Flutter app for delivery and ride drivers that tracks available trips and shows which ones match the criteria each driver configures. Built with feature-based Clean Architecture, Bloc/Cubit, the repository pattern and dependency injection, with a dashboard and subscription flow on Firebase (Firestore and Cloud Functions).",
+      "features": [
+        {
+          "title": "Configurable trip-matching criteria",
+          "description": "Each driver sets the criteria a trip must meet, and the app flags the available trips that match."
+        },
+        {
+          "title": "Dashboard and subscriptions",
+          "description": "A dashboard for the driver's activity and a subscription flow for access to the service."
+        },
+        {
+          "title": "Firebase back end",
+          "description": "Data in Firestore with Cloud Functions handling server-side logic."
+        },
+        {
+          "title": "Location and permissions",
+          "description": "Location access and permission requests handled through dedicated services."
+        }
+      ],
+      "technologies_used": [
+        "Flutter",
+        "Dart",
+        "Bloc/Cubit",
+        "Firebase"
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "name": "Tawseela Pro",
+      "cover_image": "assets/covers/tawseela.png",
+      "short_description": "Ride and delivery app with a customer side and a captains (drivers) side. Currently in development.",
+      "description": "A Flutter ride and delivery app, currently in development. Customers pick a ride type (motorcycle, taxi, tuk-tuk, scooter), request goods transport or order from nearby stores, and set pickup and drop-off on a map. Captains switch availability on, receive new requests, accept the customer's price or counter it, follow the order on a map, confirm delivery and rate the customer, and see their commission and dues in their account.",
+      "features": [
+        {
+          "title": "Customer ride and delivery requests",
+          "description": "Choose a vehicle, set pickup and drop-off on the map, and track current orders."
+        },
+        {
+          "title": "Services and stores",
+          "description": "A services tab with categories such as pharmacies, supermarkets, restaurants and gifts."
+        },
+        {
+          "title": "Captain request flow",
+          "description": "Go available, receive new requests, accept the offered price or send a counter-price."
+        },
+        {
+          "title": "Delivery confirmation and rating",
+          "description": "Captains confirm delivery and rate the customer."
+        },
+        {
+          "title": "Captain account and dues",
+          "description": "Commission or fixed fee per order, with the amount due shown in the account."
+        }
+      ],
+      "technologies_used": [
+        "Flutter",
+        "Dart"
+      ],
+      "links": [],
+      "media": [
+        {
+          "type": "video",
+          "url": "assets/videos/tawseela_pro_demo.mp4",
+          "poster": "assets/videos/tawseela_pro_demo_poster.jpg"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/tawseela_pro_customer.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/tawseela_pro_captain_orders.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "assets/screenshots/tawseela_pro_captain_account.png"
+        }
+      ]
+    },
     {
       "name": "InDriver",
       "cover_image": "assets/covers/IndriveApp.png",
@@ -556,6 +640,87 @@
           "url": "assets/screenshots/weather_app/details2.png"
         }
       ]
+    },
+    {
+      "name": "Task Manager",
+      "cover_image": "assets/covers/taskmanager.png",
+      "short_description": "Flutter app for organizing projects and tasks.",
+      "description": "A Flutter app for managing projects and the tasks inside them, with login, persistent sessions, a profile screen and pull-to-refresh. Built with Clean Architecture, a feature-based structure, the repository pattern, GetIt dependency injection and Bloc state management.",
+      "features": [
+        {
+          "title": "Login and saved session",
+          "description": "Register or log in and stay signed in across app launches."
+        },
+        {
+          "title": "Projects and tasks",
+          "description": "Browse projects, open a project's details and see its tasks."
+        },
+        {
+          "title": "Add and complete tasks",
+          "description": "Create new tasks in a project and mark them as done."
+        },
+        {
+          "title": "Pull to refresh and error handling",
+          "description": "Refresh project and task lists, with clear feedback when something fails."
+        },
+        {
+          "title": "Responsive UI",
+          "description": "Layout adapts to different screen sizes."
+        }
+      ],
+      "technologies_used": [
+        "Flutter",
+        "Dart",
+        "Bloc",
+        "Dio",
+        "GetIt",
+        "Clean Architecture"
+      ],
+      "links": [
+        {
+          "type": "GitHub",
+          "url": "https://github.com/dinamaher248/task_manager"
+        }
+      ],
+      "media": []
+    },
+    {
+      "name": "Chat App",
+      "cover_image": "assets/covers/chatapp.png",
+      "short_description": "Real-time chat app built with Flutter and Firebase.",
+      "description": "A cross-platform chat app with Firebase Authentication and live messaging through Cloud Firestore. Includes custom chat bubbles for your messages and your friends', a responsive layout and GoRouter navigation.",
+      "features": [
+        {
+          "title": "Register and login",
+          "description": "Firebase Authentication for creating an account and signing in."
+        },
+        {
+          "title": "Real-time messaging",
+          "description": "Messages sync live between users through Cloud Firestore."
+        },
+        {
+          "title": "Custom chat bubbles",
+          "description": "Separate bubble styles for your messages and your friend's messages."
+        },
+        {
+          "title": "Responsive UI",
+          "description": "Sized with Sizer and tested across screen sizes with Device Preview."
+        }
+      ],
+      "technologies_used": [
+        "Flutter",
+        "Dart",
+        "Firebase",
+        "Firestore",
+        "GoRouter"
+      ],
+      "links": [
+        {
+          "type": "GitHub",
+          "url": "https://github.com/dinamaher248/chat-app"
+        }
+      ],
+      "media": []
     }
   ]
 }

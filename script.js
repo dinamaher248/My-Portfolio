@@ -184,17 +184,17 @@ function typeWriter(element, text, speed = 100) {
 }
 
 // 4. Counter Animation
-function animateCounter(element, target, duration = 2000) {
+function animateCounter(element, target, duration = 2000, suffix = '') {
   let start = 0;
   const increment = target / (duration / 16);
 
   function updateCounter() {
     start += increment;
     if (start < target) {
-      element.textContent = Math.floor(start);
+      element.textContent = Math.floor(start) + suffix;
       requestAnimationFrame(updateCounter);
     } else {
-      element.textContent = target;
+      element.textContent = target + suffix;
     }
   }
   updateCounter();
@@ -214,10 +214,12 @@ function initCreativeEffects(data) {
   setTimeout(() => {
     const counters = document.querySelectorAll('.animated-counter');
     counters.forEach((counter, index) => {
-      const target = parseInt(counter.querySelector('span').textContent);
+      const rawText = counter.querySelector('span').textContent;
+      const target = parseInt(rawText);
+      const suffix = rawText.trim().replace(/^[0-9]+/, '');
       counter.setAttribute('data-target', target);
       setTimeout(() => {
-        animateCounter(counter.querySelector('span'), target, 2000);
+        animateCounter(counter.querySelector('span'), target, 2000, suffix);
       }, index * 200);
     });
   }, 2000);

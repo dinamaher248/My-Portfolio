@@ -108,12 +108,17 @@ function populateProjectData(project) {
   const featuresGrid = document.getElementById('featuresGrid');
   featuresGrid.innerHTML = '';
   if (project.features && project.features.length > 0) {
-    project.features.forEach(feature => {
+    project.features.forEach(item => {
+      // A feature can be a plain string (generic text below) or {title, description}
+      const feature = typeof item === 'string' ? item : item.title;
+      const featureText = (typeof item === 'object' && item.description)
+        ? item.description
+        : 'Advanced feature providing enhanced user experience and functionality.';
       const featureCard = document.createElement('div');
       featureCard.className = 'feature-card';
       featureCard.innerHTML = `
         <h3><i class="${getFeatureIcon(feature)}"></i>${feature}</h3>
-        <p>Advanced feature providing enhanced user experience and functionality.</p>
+        <p>${featureText}</p>
       `;
       featuresGrid.appendChild(featureCard);
     });
@@ -139,7 +144,22 @@ function populateProjectData(project) {
       const galleryItem = document.createElement('div');
       galleryItem.className = 'gallery-item';
 
-      if (media.type === 'screenshot' || media.type === 'gif') {
+      if (media.type === 'video') {
+        galleryItem.classList.add('gallery-item--video');
+        const v = document.createElement('video');
+        v.src = media.url;
+        if (media.poster) v.poster = media.poster;
+        v.controls = true;
+        v.muted = false;
+        v.loop = false;
+        v.autoplay = false;
+        v.playsInline = true;
+        v.preload = 'metadata';
+        v.setAttribute('controlslist','nodownload');
+        v.setAttribute('aria-label', project.name + ' demo video');
+        galleryItem.appendChild(v);
+        gallery.appendChild(galleryItem);
+      } else if (media.type === 'screenshot' || media.type === 'gif') {
         galleryItem.innerHTML = `
           <img src="${media.url}" alt="${project.name} ${media.type}" loading="lazy" />
           <div class="gallery-overlay">
